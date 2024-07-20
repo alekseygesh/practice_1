@@ -1,3 +1,17 @@
 # Default ignored files
 /shelf/
+
 /workspace.xml
+
+**/build/
+
+*.jar
+
+#файл module2.jar из п 2.1.b по-прежнему не должен игнорироваться
+!module2.jar
+
+application-local.properties
+
+/.idea*
+
+!/.idea_copy/workspace.xml
